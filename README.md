@@ -2,9 +2,10 @@
 
 ## Dataset
 
-We used the Grammarly Corpus of Discourse Coherence to train our model. Instructions to use the same can be found [here](https://github.com/aylai/GCDC-corpus)
+The datasets used are:
+1. The Grammarly Corpus of Discourse Coherence to train our model. Instructions to use the same can be found [here](https://github.com/aylai/GCDC-corpus)
 
-The data was annotated as 1/2/3 depending on the coherence of the text. (3 being most coherent)
+2. https://github.com/AiliAili/Coherence_Modelling
 
 ## Model 1
 
