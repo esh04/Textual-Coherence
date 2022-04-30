@@ -29,20 +29,39 @@ Additional details can be found [here](https://github.com/AiliAili/Coherence_Mod
 
 The following approaches were used on the GCDC corpus to fine tune the models: 
 
-- The corpus had data annotated to 1/2/3 depicting the levels of coherence, so we initially implemented a three way classifier. Later we converted it into a binary classifier.
+- Some of the testing data was used for training as we realised that training data was insufficient for an accurate prediction.
+- The corpus had data annotated to 1/2/3 depicting the levels of coherence, so we initially implemented a three way classifier. Later we converted it into a binary classifier.This lead to a considerable increase in the accurace.
 - We used cosine similarity between adjacent sentences of the paragraphs as a parameter to calculate coherence. At first we used average similarity of the paragraph which we then changed to minimum similarity. 
 
 The above methods were tried on different training and testing datas from the GCDC corpus and the best model was saved.
 
-The best model in each method was used on the Git Corpus to observe the accuracies. 
+The best model in each method was used on the **Wikipedia-CNN Corpus** to observe the accuracies. 
 
 ## Accuracies Observed
 
 ### Method 1 - LSTM
+#### GCDC Corpus
+- Without using similarity as a parameter
+  - 3000 training data, 600 testing data, three way classifier: approx **30%**
+  - 4600 training data, Yahoo test data, three way classifier: approx **36.5%**
+  - 4600 training data, Yahoo test data, binary classifier: approx **55%**
+  - 4600 training data, Clinton test data, binary classifier: approx **64.99%**
+ 
+- Using Average Similarity as a parameter
+  - 4600 training data, Clinton test data, three way classifier: approx **34%**
 
-### Method 2 - GRU
+- Using Minimum Similarity as a parameter
+  - 4600 training data, Clinton test data, three way classifier: approx **39.5%**
+  - 4600 training data, Clinton test data, three way classifier: approx **67%**
 
+The best model was obtained by using the Clinton dataset as test and by using a binary classifier. his model was now run for the Wikipedia-CNN corpus.
+
+#### Wikipedia-CNN Corpus
+- Using Minimum similarity score as parameter
+  - **71.66%**
 ### Method 3 - RNN
+#### GCDC Corpus
+#### Wikipedia-CNN Corpus
 
 
 **In depth analysis can be found in the Report.pdf**
