@@ -3,13 +3,17 @@
 ## Dataset
 
 The datasets used are:
-1. The Grammarly Corpus of Discourse Coherence to train our model. Instructions to use the same can be found [here](https://github.com/aylai/GCDC-corpus)
+1. The Grammarly Corpus of Discourse Coherence
+
 
 The dataset is annotated into classes 1/2/3 where 3 denotes the most coherent paragraph. 
+Instructions regarding the dataset can be found [here](https://github.com/aylai/GCDC-corpus)
 
-2. https://github.com/AiliAili/Coherence_Modelling
+2. Wikipedia/CNN Corpus
+
 
 The dataset consists of a set of coherent sentences along with respective replacements to make them incoherent. 
+Additional details can be found [here](https://github.com/AiliAili/Coherence_Modelling)
 
 ## Repository Structure
 - The data is present in the data folder
