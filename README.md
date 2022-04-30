@@ -76,7 +76,7 @@ The best model was obtained by using the Clinton dataset as test and by using a 
   - 4600 training data, 200 Clinton test data, three way classifier: approx **32.49%**
   - 4600 training data, 200 Clinton test data, binary classifier: approx **55.5%**
 - Using Minimum Similarity as a parameter
-  - 4600 training data, 200 Clinton test data, binary classifier: approx **63.99%**
+  - 4600 training data, 200 Clinton test data, binary classifier: approx **53.5%**
 #### Wikipedia-CNN Corpus
 
 
