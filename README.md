@@ -59,8 +59,24 @@ The best model was obtained by using the Clinton dataset as test and by using a 
 #### Wikipedia-CNN Corpus
 - Using Minimum similarity score as parameter
   - **71.66%**
+
+
+### Method 2 - GRU
+#### GCDC Corpus
+- Without using similarity as a parameter
+  - 4600 training data, 200 Clinton test data, three way classifier: approx **41.99%**
+  - 4600 training data, 200 Clinton test data, binary classifier: approx **57.99%**
+- Using Minimum Similarity as a parameter
+  - 4600 training data, 200 Clinton test data, binary classifier: approx **63.99%**
+#### Wikipedia-CNN Corpus
+
 ### Method 3 - RNN
 #### GCDC Corpus
+- Without using similarity as a parameter
+  - 4600 training data, 200 Clinton test data, three way classifier: approx **32.49%**
+  - 4600 training data, 200 Clinton test data, binary classifier: approx **55.5%**
+- Using Minimum Similarity as a parameter
+  - 4600 training data, 200 Clinton test data, binary classifier: approx **63.99%**
 #### Wikipedia-CNN Corpus
 
 
