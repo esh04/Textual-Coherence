@@ -61,7 +61,9 @@ The best model in each method was used on the **Wikipedia-CNN Corpus** to observ
     - Yahoo: approx **54.5%**
     - Yelp: approx **66.5%**
   - It is fair to assume that Enron has best performance as it is more closed domained than the rest. Similarly, the Yahoo Question-Answer corpus is the most open domained. 
-The best model was obtained by using a binary classifier. This model was now run for the Wikipedia-CNN corpus.
+
+Binary classifier performed significantly better that three way multi classifier, thus we used only binary classifiers for the Wikipedia-CNN corpus.
+
 
 #### Wikipedia-CNN Corpus
 - Using binary classifier without any similarity parameter
