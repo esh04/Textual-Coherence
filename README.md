@@ -64,8 +64,10 @@ The best model in each method was used on the **Wikipedia-CNN Corpus** to observ
 The best model was obtained by using a binary classifier. This model was now run for the Wikipedia-CNN corpus.
 
 #### Wikipedia-CNN Corpus
-- Using Minimum similarity score as parameter
+- Using binary classifier without any similarity parameter
   - **71.66%**
+- Using binary classifier with minimum similarity parameter
+  - **74.55%**
 
 
 ### Method 2 - GRU
