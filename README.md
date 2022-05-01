@@ -80,6 +80,11 @@ Binary classifier performed significantly better that three way multi classifier
 - Using Minimum Similarity as a parameter
   - 4600 training data, 200 Clinton test data, binary classifier: approx **63.99%**
 #### Wikipedia-CNN Corpus
+- Without any similarity as a parameter
+  - **69.89%**
+- Using minimum similarity as a parameter
+  - **77.76%**
+
 
 ### Method 3 - RNN
 #### GCDC Corpus
@@ -89,10 +94,7 @@ Binary classifier performed significantly better that three way multi classifier
 - Using Minimum Similarity as a parameter
   - 4600 training data, 200 Clinton test data, binary classifier: approx **53.5%**
 #### Wikipedia-CNN Corpus
-- Without any similarity as a parameter
-  - **69.89%**
-- Using minimum similarity as a parameter
-  - **77.76%**
+
 
 
 **In depth analysis can be found in the Report.pdf**
