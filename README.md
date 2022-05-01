@@ -52,7 +52,7 @@ The best model in each method was used on the **Wikipedia-CNN Corpus** to observ
 
 - Using Minimum Similarity as a parameter
   - 4600 training data, Clinton test data, three way classifier: approx **39.5%**
-  - 4600 training data, Clinton test data, three way classifier: approx **67%**
+  - 4600 training data, Clinton test data, binary classifier: approx **67%**
 
 - We observe different results with different test datas, thus we compared the performance of all the test data available in the GCDC corpus using that LSTM model, binary classification with minimum similarity as a parameter.
   - Results Obtained:
