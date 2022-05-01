@@ -54,7 +54,14 @@ The best model in each method was used on the **Wikipedia-CNN Corpus** to observ
   - 4600 training data, Clinton test data, three way classifier: approx **39.5%**
   - 4600 training data, Clinton test data, three way classifier: approx **67%**
 
-The best model was obtained by using the Clinton dataset as test and by using a binary classifier. his model was now run for the Wikipedia-CNN corpus.
+- We observe different results with different test datas, thus we compared the performance of all the test data available in the GCDC corpus using that LSTM model, binary classification with minimum similarity as a parameter.
+  - Results Obtained:
+    - Clinton: approx **61%**
+    - Enron: approx **66%**
+    - Yahoo: approx **54.5%**
+    - Yelp: approx **66.5%**
+  - It is fair to assume that Enron has best performance as it is more closed domained than the rest. Similarly, the Yahoo Question-Answer corpus is the most open domained. 
+The best model was obtained by using a binary classifier. This model was now run for the Wikipedia-CNN corpus.
 
 #### Wikipedia-CNN Corpus
 - Using Minimum similarity score as parameter
