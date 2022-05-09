@@ -1,5 +1,7 @@
 # Textual-Coherence
 
+Experimented with neural models (LSTM, GRU and RNNs) to measure textual coherence using parameters such as similarity on the GCDC and Wikipedia-CNN dataset.
+
 ## Dataset
 
 The datasets used are:
